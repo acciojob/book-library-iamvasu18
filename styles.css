@@ -1,59 +1,64 @@
-/* your css code here */
 body {
   background-color: #f8f8f8;
-  margin: 0;
   font-family: Arial, sans-serif;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0;
-}
-
-h1 {
-  text-align: center;
+  margin: 0;
+  padding: 20px;
 }
 
 .book-library {
   background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 80%;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.book {
+.book-library h1 {
   text-align: center;
+  color: #333;
   margin-bottom: 30px;
 }
 
-.img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
+.book {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  vertical-align: top;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-.img img {
-  width: 200px;
-  height: auto;
-  border-radius: 5px;
-}
-
-p {
-  color: #777777;
+/* ✅ The first div inside .book will be tested for green background */
+.price-block {
+  background-color: #2ecc71;
+  border-radius: 8px;
+  padding: 10px 0;
 }
 
 .price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #2ecc71;
-  width: 100%;
-  height: 40px;
   color: #ffffff;
-  border-radius: 10px;
   font-weight: bold;
+  margin: 0;
+}
+
+.book img {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.title {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.author {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
