@@ -1,31 +1,64 @@
-/*  your css code here. If applicable */
-body{
-	background-color:#f8f8f8;
+/* your css code here */
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
-header{
-	display:flex;
-	justify-content:center;
-	align-items:center;
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
-.book-library{
-	background-color:#ffffff;
+
+h1 {
+  text-align: center;
 }
-.img{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	padding-top:20px;
+
+.book-library {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
 }
-p{
-	color:#777777;
+
+.book {
+  text-align: center;
+  margin-bottom: 30px;
 }
-.price{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	background-color:#2ecc71;
-	width:100%;
-	height:40px;
-	color:white;
-	border-radius: 10px;
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.img img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
+
+p {
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2ecc71;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: bold;
 }
